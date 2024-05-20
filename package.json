@@ -11,6 +11,7 @@
     "build:clean": "rm -rf ./lib",
     "build:watch": "tsc --watch",
     "dev": "next dev",
+    "fb-emulators": "firebase emulators:start --only firestore,auth,functions",
     "lint": "next lint"
   },
   "dependencies": {
